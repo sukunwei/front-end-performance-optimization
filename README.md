@@ -1,54 +1,51 @@
-Ç°¶ËÐÔÄÜÓÅ»¯
-1 Ò³Ãæ¼¶ÓÅ»¯
-1.1 ¼õÉÙhttpÇëÇó
-1.2 ¼Ó¿ìDNS½âÎö
-1.3 ÉèÖÃhttp»º´æ
-1.4 ×ÊÔ´ºÏ²¢(JS,CSS)
-1.5 ×ÊÔ´Ç°¶ËÑ¹Ëõ
-1.6 Í¼Æ¬¾«Áé(sprite)
+1 é¡µé¢çº§ä¼˜åŒ–
+1.1 å‡å°‘httpè¯·æ±‚
+1.2 åŠ å¿«DNSè§£æž
+1.3 è®¾ç½®httpç¼“å­˜
+1.4 èµ„æºåˆå¹¶(JS,CSS)
+1.5 èµ„æºå‰ç«¯åŽ‹ç¼©
+1.6 å›¾ç‰‡ç²¾çµ(sprite)
 1.7 data: URL scheme
-1.8 ·þÎñ¶ËÑ¹Ëõgzip
+1.8 æœåŠ¡ç«¯åŽ‹ç¼©gzip
 1.9 Lazy Load Img
-1.10 cssÍ·²¿¼ÓÔØ
-1.11 JS½Å²½¼ÓÔØ
-1.12 JS°´Ðè¼ÓÔØ
-1.13 ¼õÉÙhttpÌø×ª(ÖØ¶¨Ïò)
-1.14 ÓÅ»¯DOM½á¹¹
-1.15 Í¼Æ¬²»Ê§ÕæÑ¹Ëõ
-1.16 ½Ó¿ÚºÏ²¢
-2 ÆäËû
-2.1 ¶àÓòÃû×ÊÔ´·þÎñÆ÷
+1.10 csså¤´éƒ¨åŠ è½½
+1.11 JSè„šæ­¥åŠ è½½
+1.12 JSæŒ‰éœ€åŠ è½½
+1.13 å‡å°‘httpè·³è½¬(é‡å®šå‘)
+1.14 ä¼˜åŒ–DOMç»“æž„
+1.15 å›¾ç‰‡ä¸å¤±çœŸåŽ‹ç¼©
+1.16 æŽ¥å£åˆå¹¶
+
+2 å…¶ä»–
+2.1 å¤šåŸŸåèµ„æºæœåŠ¡å™¨
 2.2 CDN
-3 ´úÂë¼¶ÓÅ»¯
+2.3 é™æ€èµ„æºç¼“å­˜æœåŠ¡å™¨
+
+3 ä»£ç çº§ä¼˜åŒ–
 3.1 Dom
 3.1.1 Html Collection
-ÔÚ½Å±¾ÖÐdocument.images¡¢document.forms¡¢getElementsByTagName()·µ»ØµÄ¶¼ÊÇHTMLCollectionÀàÐÍµÄ¼¯ºÏ£¬ÔÚÆ½Ê±Ê¹ÓÃµÄÊ±ºò´ó¶à½«Ëü×÷ÎªÊý×éÀ´Ê¹ÓÃ£¬ÒòÎªËüÓÐlengthÊôÐÔ£¬Ò²¿ÉÒÔÊ¹ÓÃË÷Òý·ÃÎÊÃ¿Ò»¸öÔªËØ¡£²»¹ýÔÚ·ÃÎÊÐÔÄÜÉÏÔò±ÈÊý×éÒª²îºÜ¶à£¬Ô­ÒòÊÇÕâ¸ö¼¯ºÏ²¢²»ÊÇÒ»¸ö¾²Ì¬µÄ½á¹û£¬Ëü±íÊ¾µÄ½ö½öÊÇÒ»¸öÌØ¶¨µÄ²éÑ¯£¬Ã¿´Î·ÃÎÊ¸Ã¼¯ºÏÊ±¶¼»áÖØÐÂÖ´ÐÐÕâ¸ö²éÑ¯´Ó¶ø¸üÐÂ²éÑ¯½á¹û¡£ËùÎ½µÄ¡°·ÃÎÊ¼¯ºÏ¡±°üÀ¨¶ÁÈ¡¼¯ºÏµÄlengthÊôÐÔ¡¢·ÃÎÊ¼¯ºÏÖÐµÄÔªËØ¡£
-    Òò´Ë£¬µ±ÄãÐèÒª±éÀúHTML CollectionµÄÊ±ºò£¬¾¡Á¿½«Ëü×ªÎªÊý×éºóÔÙ·ÃÎÊ£¬ÒÔÌá¸ßÐÔÄÜ¡£¼´Ê¹²»×ª»»ÎªÊý×é£¬Ò²Çë¾¡¿ÉÄÜÉÙµÄ·ÃÎÊËü£¬ÀýÈçÔÚ±éÀúµÄÊ±ºò¿ÉÒÔ½«lengthÊôÐÔ¡¢³ÉÔ±±£´æµ½¾Ö²¿±äÁ¿ºóÔÙÊ¹ÓÃ¾Ö²¿±äÁ¿¡£
- 
-3.1.2  Reflow(ÖØÅÅ)
-3.1.3 Repaint(ÖØ»æ)
-3.2 ±ÜÃâÊ¹ÓÃevalºÍFunction
-3.3 É÷ÓÃwith
-3.4 ¼õÉÙ×÷ÓÃÓòÁ´²éÕÒ
-  Ç°ÎÄÌ¸µ½ÁË×÷ÓÃÓòÁ´²éÕÒÎÊÌâ£¬ÕâÒ»µãÔÚÑ­»·ÖÐÊÇÓÈÆäÐèÒª×¢ÒâµÄÎÊÌâ¡£Èç¹ûÔÚÑ­»·ÖÐÐèÒª·ÃÎÊ·Ç±¾×÷ÓÃÓòÏÂµÄ±äÁ¿Ê±ÇëÔÚ±éÀúÖ®Ç°ÓÃ¾Ö²¿±äÁ¿»º´æ¸Ã±äÁ¿£¬²¢ÔÚ±éÀú½áÊøºóÔÙÖØÐ´ÄÇ¸ö±äÁ¿£¬ÕâÒ»µã¶ÔÈ«¾Ö±äÁ¿ÓÈÆäÖØÒª£¬ÒòÎªÈ«¾Ö±äÁ¿´¦ÓÚ×÷ÓÃÓòÁ´µÄ×î¶¥¶Ë£¬·ÃÎÊÊ±µÄ²éÕÒ´ÎÊýÊÇ×î¶àµÄ¡£
- 
-3.5 Êý¾Ý·ÃÎÊ£¬ÀûÓÃ¾Ö²¿±äÁ¿
-3.6 ×Ö·û´®Æ´½ÓÓÃÊý×éjoin
-3.7 ÊÂ¼þ°ó¶¨¶àÓÃÎ¯ÍÐ
-3.8 cssÑ¡Ôñ·û£¨´ÓÓÒÍù×ó£©
-3.9 resizeÊ¹ÓÃ¼ÆÊ±Æ÷°ó¶¨Ê±¼ä¼ä¸ô
-3.10 ÄÚ´æÊ¹ÓÃÓëÊÍ·Å¿ØÖÆ
-3.11 º¯Êý½ÚÁ÷(setTimeout)
-3.12 ÇÉÓÃ»º´æ
+3.1.2 Reflow(é‡æŽ’)
+3.1.3 Repaint(é‡ç»˜)
+3.2 é¿å…ä½¿ç”¨evalå’ŒFunction
+3.3 æ…Žç”¨with
+3.4 å‡å°‘ä½œç”¨åŸŸé“¾æŸ¥æ‰¾
+3.5 æ•°æ®è®¿é—®ï¼Œåˆ©ç”¨å±€éƒ¨å˜é‡
+3.6 å­—ç¬¦ä¸²æ‹¼æŽ¥ç”¨æ•°ç»„join
+3.7 äº‹ä»¶ç»‘å®šå¤šç”¨å§”æ‰˜
+3.8 cssé€‰æ‹©ç¬¦ï¼ˆä»Žå³å¾€å·¦ï¼‰
+3.9 resizeä½¿ç”¨è®¡æ—¶å™¨ç»‘å®šæ—¶é—´é—´éš”
+3.10 å†…å­˜ä½¿ç”¨ä¸Žé‡Šæ”¾æŽ§åˆ¶
+3.11 å‡½æ•°èŠ‚æµ(setTimeout)
+3.12 å·§ç”¨ç¼“å­˜
 
-4 JQueryÓÅ»¯
-4.1 ×ÜÊÇ´ÓIDÑ¡ÔñÆ÷¿ªÊ¼¼Ì³Ð
-4.2 ÔÚclassÇ°Ê¹ÓÃtag 
-4.3 ½«jquery¶ÔÏó»º´æÆðÀ´ 
-4.4 ÕÆÎÕÇ¿´óµÄÁ´Ê½²Ù×÷ 
-4.5 Ê¹ÓÃ×Ó²éÑ¯ 
-4.6 ¶ÔÖ±½ÓµÄDOM²Ù×÷½øÐÐÏÞÖÆ
-4.7 Ã°ÅÝ 
-4.8 Ïû³ýÎÞÐ§²éÑ¯ 
-4.9 ÍÆ³Ùµ½ $(window).load
+4 JQueryä¼˜åŒ–
+4.1 æ€»æ˜¯ä»ŽIDé€‰æ‹©å™¨å¼€å§‹ç»§æ‰¿
+4.2 åœ¨classå‰ä½¿ç”¨tag 
+4.3 å°†jqueryå¯¹è±¡ç¼“å­˜èµ·æ¥ 
+4.4 æŽŒæ¡å¼ºå¤§çš„é“¾å¼æ“ä½œ 
+4.5 ä½¿ç”¨å­æŸ¥è¯¢ 
+4.6 å¯¹ç›´æŽ¥çš„DOMæ“ä½œè¿›è¡Œé™åˆ¶
+4.7 å†’æ³¡ 
+4.8 æ¶ˆé™¤æ— æ•ˆæŸ¥è¯¢ 
+4.9 æŽ¨è¿Ÿåˆ° $(window).load
 
